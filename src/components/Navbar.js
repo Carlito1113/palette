@@ -52,7 +52,7 @@ const Navbar = ({ level, changeLevel, handleChange }) => {
         </Select>
       </div>
       <Snackbar
-        anchorOrigin={{ vertical: 'top', horizontal: 'middle' }}
+        anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
         open={open}
         autoHideDuration={3000}
         message={<span id="message-id">Format Changed To {format}</span>}
