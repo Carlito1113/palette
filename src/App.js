@@ -22,9 +22,6 @@ function App() {
         )}
       />
     </Switch>
-    // <div className="App">
-    //   <Palette palette={generatePalette(seedPalettes[4])} />
-    // </div>
   )
 }
 
